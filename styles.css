@@ -1,0 +1,86 @@
+header {
+  background-color: #cccccc; }
+  header .company-name {
+    font-weight: bold; }
+  header h1 {
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: left;
+    margin: auto 0; }
+  header ul {
+    list-style: none;
+    text-align: right;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0; }
+  header a {
+    text-decoration: none;
+    color: #000000;
+    font-family: sans-serif; }
+  header li {
+    display: inline;
+    padding: 5px; }
+
+body {
+  width: 100%; }
+
+.octodex {
+  list-style: none;
+  display: block; }
+  .octodex .octocat {
+    list-style: none;
+    width: 300px;
+    padding-bottom: 26px;
+    font-family: sans-serif;
+    border-bottom: 1px solid #cccccc; }
+  .octodex .catPic {
+    border: 1px solid #cccccc;
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    margin-bottom: 15px; }
+  .octodex li {
+    display: inline; }
+  .octodex a {
+    text-decoration: none;
+    color: #000000; }
+  .octodex footer {
+    margin: 0;
+    font-size: 0.3em; }
+  .octodex h3 {
+    color: #cccccc;
+    margin: 0;
+    padding-left: 5px; }
+  .octodex cite {
+    float: right;
+    position: relative;
+    padding: 10px 40px 0 0;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    color: #999999;
+    font-weight: bold; }
+  .octodex .avatars {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 50px; }
+  .octodex .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #999999;
+    transform: rotate(180deg); }
+  .octodex .catName {
+    font-weight: bold; }
+  .octodex .authors {
+    display: inline; }
+
+@media screen and (min-width: 700px) {
+  .octocat {
+    width: 700px;
+    float: left; } }
+
+/*# sourceMappingURL=styles.css.map */
