@@ -11,15 +11,16 @@ body{
     width: 300px;
     padding-bottom: 26px;
     font-family: $font;
-    border-bottom: 1px solid $themeColor;
+    // border-bottom: 1px solid $themeColor;
   }
 
   .catPic {
     border: 1px solid $themeColor;
     width: 250px;
     height: 250px;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin: 0;
+    // margin-top: 25px;
+    // margin-bottom: 15px;
   }
 
   li {
@@ -34,6 +35,8 @@ body{
   footer {
     margin: 0;
     font-size: 0.3em;
+    border-bottom: 1px solid $themeColor;
+    margin-top: 5px;
   }
 
   h3 {
@@ -45,7 +48,7 @@ body{
   cite {
     float: right;
     position: relative;
-    padding: 10px 40px 0 0;
+    padding: 10px 50px 0 0;
     margin-bottom: 20px;
     margin-top: -30px;
     color: #999999;
@@ -57,7 +60,7 @@ body{
     height: 20px;
     position: absolute;
     bottom: 0;
-    right: 50px;
+    right: 80px;
   }
 
   .triangle-down {
@@ -67,6 +70,7 @@ body{
     border-right: 5px solid transparent;
     border-bottom: 5px solid #999999;
     transform: rotate(180deg);
+    margin-left: 225px;
   }
 
   .catName {
