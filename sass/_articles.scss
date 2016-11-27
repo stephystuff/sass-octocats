@@ -1,0 +1,86 @@
+body{
+  width: 100%;
+}
+
+.octodex{
+  list-style: none;
+  display: block;
+
+  .octocat {
+    list-style: none;
+    width: 300px;
+    padding-bottom: 26px;
+    font-family: $font;
+    border-bottom: 1px solid $themeColor;
+  }
+
+  .catPic {
+    border: 1px solid $themeColor;
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  footer {
+    margin: 0;
+    font-size: 0.3em;
+  }
+
+  h3 {
+    color: $themeColor;
+    margin: 0;
+    padding-left: 5px;
+  }
+
+  cite {
+    float: right;
+    position: relative;
+    padding: 10px 40px 0 0;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    color: #999999;
+    font-weight: bold;
+  }
+
+  .avatars {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+  }
+
+  .triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #999999;
+    transform: rotate(180deg);
+  }
+
+  .catName {
+    font-weight: bold;
+  }
+
+  .authors {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 700px)  {
+  .octocat {
+    width: 700px;
+    float: left;
+  }
+}

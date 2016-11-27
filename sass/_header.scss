@@ -1,0 +1,35 @@
+
+header {
+    background-color: $themeColor;
+
+    .company-name {
+      font-weight: bold;
+    }
+
+    h1 {
+      font-weight: lighter;
+      font-family: $font;
+      text-align: left;
+      margin: auto 0;
+    }
+
+    ul {
+      list-style: none;
+      text-align: right;
+      font-size: 0.8em;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #000000;
+      font-family: $font;
+    }
+
+    li {
+      display: inline;
+      padding: 5px;
+    }
+}
