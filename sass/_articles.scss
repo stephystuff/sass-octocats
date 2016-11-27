@@ -88,3 +88,10 @@ body{
     float: left;
   }
 }
+
+@media screen and (min-width: 1050px) {
+  .octocat {
+    width: 1050px;
+    float:left;
+  }
+}

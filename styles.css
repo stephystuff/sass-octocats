@@ -83,5 +83,9 @@ body {
   .octocat {
     width: 700px;
     float: left; } }
+@media screen and (min-width: 1050px) {
+  .octocat {
+    width: 1050px;
+    float: left; } }
 
 /*# sourceMappingURL=styles.css.map */
