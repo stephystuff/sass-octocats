@@ -3,7 +3,7 @@ header {
   header .company-name {
     font-weight: bold; }
   header h1 {
-    font-weight: lighter;
+    font-weight: normal;
     font-family: "Arial", sans-serif;
     text-align: left;
     margin: auto 0; }
@@ -36,16 +36,14 @@ body {
   .octodex .catPic {
     border: 1px solid #cccccc;
     width: 250px;
-    height: 250px;
     margin: 0; }
-  .octodex li {
-    display: inline; }
   .octodex a {
     text-decoration: none;
     color: #000000; }
   .octodex footer {
     margin: 0;
     font-size: 0.3em;
+    width: 250px;
     border-bottom: 1px solid #cccccc;
     margin-top: 5px; }
   .octodex h3 {
@@ -55,14 +53,15 @@ body {
   .octodex cite {
     float: right;
     position: relative;
-    padding: 10px 50px 0 0;
+    padding: 10px 0 0 0;
     margin-bottom: 20px;
     margin-top: -30px;
     color: #999999;
     font-weight: bold; }
+  .octodex .avatar {
+    list-style: none; }
   .octodex .avatars {
     width: 20px;
-    height: 20px;
     position: absolute;
     bottom: 0;
     right: 80px; }
@@ -81,11 +80,9 @@ body {
 
 @media screen and (min-width: 700px) {
   .octocat {
-    width: 700px;
     float: left; } }
 @media screen and (min-width: 1050px) {
   .octocat {
-    width: 1050px;
     float: left; } }
 
 /*# sourceMappingURL=styles.css.map */
