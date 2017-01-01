@@ -35,9 +35,52 @@ body{
     margin: 0;
     font-size: 0.3em;
     width: 250px;
-    border-bottom: 1px solid $themeColor;
-    margin-top: 5px;
-    // position: relative;
+    position: relative;
+    &::after {
+        @include after;
+        border-bottom: 1px solid $themeColor;
+    }
+
+    .triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid #999999;
+      transform: rotate(180deg);
+      float: right;
+      position: absolute;
+      top: 0;
+      right: 10px;
+    }
+
+    cite {
+      float: right;
+      display: block;
+      padding: 10px 0 0 0;
+      margin-top: -10px;
+      color: #999999;
+      font-weight: bold;
+      // border-bottom: 1px solid $themeColor;
+
+      ul.authors {
+        list-style: none;
+        height: 30px;
+        float:right;
+        padding: 0 5px;
+        margin-top: -7px;
+        margin-bottom: -5px;
+
+        li {
+            display: inline-block;
+        }
+
+        img{
+          border: 0px transparent;
+          width: 20px;
+        }
+      }
+    }
   }
 
   h3 {
@@ -46,48 +89,28 @@ body{
     padding-left: 5px;
   }
 
-  cite {
-    float: right;
-    position: relative;
-    padding: 10px 0 0 0;
-    margin-bottom: 20px;
-    margin-top: -30px;
-    color: #999999;
-    font-weight: bold;
-    // border-bottom: 1px solid $themeColor;
 
-  }
 
-  .avatar{
-    list-style: none;
-  }
+  // .avatar{
+  //   list-style: none;
+  // }
 
-  .avatars {
-    width: 20px;
-    position: absolute;
-    bottom: 0;
-    right: 80px;
-  }
-
-  .triangle-down {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid #999999;
-    transform: rotate(180deg);
-    margin-left: 225px;
+  // .avatars {
+  //   width: 20px;
     // position: absolute;
-  }
+    // top: 0;
+    // left: 0;
+  // }
+}
 
   .catName {
     font-weight: bold;
   }
 
-  .authors {
-    display: inline;
-  }
-}
+  // .authors {
+  //   display: inline;
+  // }
+
 
 @media screen and (min-width: 700px)  {
   .octocat {
