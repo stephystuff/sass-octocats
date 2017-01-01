@@ -15,7 +15,7 @@ body{
 
   .catPic {
     border: 1px solid $themeColor;
-    width: 250px;
+    width: $catPicWidth;
     margin: 0;
   }
 
@@ -27,7 +27,7 @@ body{
   footer {
     margin: 0;
     font-size: 0.3em;
-    width: 250px;
+    width: $footerWidth;
     position: relative;
     &::after {
         @include after;
@@ -51,17 +51,17 @@ body{
       float: right;
       display: block;
       padding: 10px 0 0 0;
-      margin-top: -10px;
-      color: #999999;
+      margin-top: $citeMarginTop;
+      color: $citeFontColor;
       font-weight: bold;
 
       ul.authors {
         list-style: none;
-        height: 30px;
+        height: $authorsHeight;
         float:right;
         padding: 0 5px;
-        margin-top: -7px;
-        margin-bottom: -5px;
+        margin-top: $authorsMarginTop;
+        margin-bottom: $authorsMarginBottom;
 
         li {
             display: inline-block;
@@ -69,7 +69,7 @@ body{
 
         img{
           border: 0px transparent;
-          width: 20px;
+          width: $avatarImgWidth;
         }
       }
     }
