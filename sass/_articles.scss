@@ -11,20 +11,13 @@ body{
     width: $octocatListWidth;
     padding-bottom: $octocatListPadding;
     font-family: $font;
-    // border-bottom: 1px solid $themeColor;
   }
 
   .catPic {
     border: 1px solid $themeColor;
     width: 250px;
     margin: 0;
-    // margin-top: 25px;
-    // margin-bottom: 15px;
   }
-
-  // li {
-  //   display: inline;
-  // }
 
   a {
     text-decoration: none;
@@ -61,7 +54,6 @@ body{
       margin-top: -10px;
       color: #999999;
       font-weight: bold;
-      // border-bottom: 1px solid $themeColor;
 
       ul.authors {
         list-style: none;
@@ -88,29 +80,11 @@ body{
     margin: 0;
     padding-left: 5px;
   }
-
-
-
-  // .avatar{
-  //   list-style: none;
-  // }
-
-  // .avatars {
-  //   width: 20px;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-  // }
 }
 
   .catName {
     font-weight: bold;
   }
-
-  // .authors {
-  //   display: inline;
-  // }
-
 
 @media screen and (min-width: 700px)  {
   .octocat {
